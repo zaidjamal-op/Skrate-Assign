@@ -26,7 +26,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Libraries I used in project
 
-1. Styled-Components : For styling the project and it is easy compare to traditional css.
+1. Styled-Components : For styling the project and styled-components are easy compare to traditional css.
 2. React-icons : For Icons.
 
 ## Deployed Link
