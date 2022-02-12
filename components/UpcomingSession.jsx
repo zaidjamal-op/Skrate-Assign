@@ -64,7 +64,7 @@ flex-direction: column;
 width: 611px;
 height: 285px;
 background: #FFFFFF;
-border: 1px solid #FDFDFD;
+border: 1px solid whitesmoke;
 box-sizing: border-box;
 box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
