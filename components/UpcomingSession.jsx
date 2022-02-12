@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components';
-import Avatar from '@material-ui/core/Avatar';
 import {FaLongArrowAltRight} from 'react-icons/fa'
 
 function UpcomingSession() {
@@ -29,7 +28,7 @@ function UpcomingSession() {
             
             <NameContainer>
             <AvatarContainer>
-                <Avatar src="/Rushil.jfif"/>
+                <Avt src="/Rushil.jfif"/>
             </AvatarContainer>
                 <Name>
                     <h4>{upcomingsession.mentor_name}</h4>
@@ -231,4 +230,11 @@ cursor: pointer;
   @media only screen and (min-width: 769px) and (max-width: 1281px) {
 display: none;
 }    
+`;
+
+const Avt = styled.img`
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 `;

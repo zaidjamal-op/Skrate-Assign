@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import styled from 'styled-components'
-import Avatar from '@material-ui/core/Avatar';
+import styled from 'styled-components';
 import { useEffect, useState } from 'react';
 function Header() {
   const [name, setName] = useState(null)
@@ -18,7 +17,7 @@ function Header() {
               <Image src="/Logo.png" width={90} height={90}/>
           </LogoContainer>
           <AvatarContainer>
-            <Avatar src="/profilepic.jfif"/>
+            <Avt src="/profilepic.jfif"/>
             <Name>{name}</Name>
           </AvatarContainer>
       </Container>
@@ -67,4 +66,9 @@ color: #263238;
 }
 `;
 
-
+const Avt = styled.img`
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+`;
